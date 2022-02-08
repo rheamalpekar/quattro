@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <title>GALLERY</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Bradley Hand, cursive;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+  background-color:lightpink;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  background-color:lightgreen ;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  background-color:lightgreen ;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Happy Families </h1>
+  <p>Families that have been made complete by our foundation.</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="image\1.jpg" style="width:100%">
+    <img src="image\2.jpg" style="width:100%">
+    <img src="image\3.jpg" style="width:100%">
+    <img src="image\4.jpg" style="width:100%">
+    <img src="image\5.jpg" style="width:100%">
+    <img src="image\6.jpg" style="width:100%">
+    <img src="image\7.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image\10.jpg" style="width:100%">
+    <img src="image\11.jpg" style="width:100%">
+    <img src="image\12.jpg" style="width:100%">
+    <img src="image\13.jpg" style="width:100%">
+    <img src="image\14.jpg" style="width:100%">
+    <img src="image\15.jpg" style="width:100%">
+    <img src="image\18.png" style="width:100%">
+    <img src="image\19.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="image\8.png" style="width:100%">
+    <img src="image\9.jpg" style="width:100%">
+    <img src="image\20.jpg" style="width:100%">
+    <img src="image\16.jpg" style="width:100%">
+    <img src="image\17.png" style="width:100%">
+    <img src="image\21.jpeg" style="width:100%">
+    <img src="image\22.jpeg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image\23.jpeg" style="width:100%">
+    <img src="image\24.jpeg" style="width:100%">
+    <img src="image\25.jpeg" style="width:100%">
+    <img src="image\26.jpeg" style="width:100%">
+    <img src="image\27.jpeg" style="width:100%">
+    <img src="image\28.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>

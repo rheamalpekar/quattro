@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<title>GIRL ADOPTION</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
+  <a href="#chronicle" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Chronicle</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+  <a href="faq.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">FAQ</a>
+  <a href="process.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Process</a>
+  <a href="gallery.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Gallery</a>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="team.html" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#chronicle" class="w3-bar-item w3-button">Chronicle</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="image\logo.jpeg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center w3-pink" id="team">
+<h2><b>OUR TEAM</b></h2>
+<p>Meet the team - QUATTRO:</p>
+
+<div class="w3-row w3-pale-red"><br>
+
+<div class="w3-quarter">
+  <div class="card">
+      <img src="image\rhea.jpeg" alt="Boss" style="width:50%" class="w3-circle w3-hover-opacity">
+      <div class="container">
+        <h2><b><i>Rhea Malpekar</i></b></h2>
+        <h3 class="title">CEO &amp; Founder</h3>
+        <p>I am a Web Designer of this website.</p>
+        <p>rheamalpekar1@gmail.com</p>
+        <p><button class="button"><a href="https://www.linkedin.com/in/rhea-malpekar-985515204">Contact</a></button></p>
+      </div>
+    </div>
+</div>
+
+<div class="w3-quarter">
+  <div class="card">
+    <img src="image\pranavi.jpeg" alt="Boss" style="width:50%" class="w3-circle w3-hover-opacity">
+    <div class="container">
+      <h2><b><i>Pranavi Kurkure</i></b></h2>
+      <h3 class="title">Service Team</h3>
+      <p>I handle the service and support of the website.</p>
+      <p>pranavikurkure26@gmail.com</p>
+      <p><button class="button"><a href="https://www.linkedin.com/in/pranavi-kurkure-429559222/">Contact</a></button></p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+  <div class="card">
+    <img src="image\janvi.jpeg" alt="Boss" style="width:50%" class="w3-circle w3-hover-opacity">
+    <div class="container">
+      <h2><b><i>Janhavi Khadke</i></b></h2>
+      <h3 class="title">Management Team</h3>
+      <p>I handle the Project management of the website.</p>
+      <p>gk7129910@gmail.com</p>
+      <p><button class="button"><a href="https://www.linkedin.com/in/janhavi-khadke-31a27b222">Contact</a></button></p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+  <div class="card">
+    <img src="image\neha.jpeg" alt="Boss" style="width:50%" class="w3-circle w3-hover-opacity">
+    <div class="container">
+      <h2><i><b>Neha Gupta</b></i></h2>
+      <h3 class="title">Front-end Developer</h3>
+      <p>I handle the front-end of the website.</p>
+      <p>gneha6150@gmail.com</p>
+      <p><button class="button"><a href="https://www.linkedin.com/in/neha-gupta-a8a478212/">Contact</a></button></p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h1 style="text-align:center;"><b>Our Work</b></h1>
+<h2><b>Lokakirti Supports girl child education – adopts 1531 girls</b></h2>
+<h3>About 10 million girls are at risk of never returning to school owing to pandemic</h3>
+<p>Santa Cruz(Mumbai) : Amidst the Covid-19 pandemic, while children from middle and higher
+  sections of society comfortably studying at home with access to laptops and other
+  technology, those from the underserved sections face the bulk of their problems within their
+  homes. Most of these children have completely been removed from their schools and have
+  no safe learning space......</p>
+  <p><button class="button"><a href="Lokakirti News.pdf">Continue Reading!</a></button></p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="image\gugu.jpg" alt="Snow" style="width:100%">
+  <div class="w3-container">
+  <h3>PRIYA ARORA</h3>
+  <h4>Health Issues</h4>
+  <p>"Due to some unavoidable health issue, I could never have a baby. 
+    Even after trying multiple medicine method, still nothing was successful. 
+    I had lost all hopes, but fortunately I came to know about Lokakirti. 
+    It did not only help me adopt a child but also completed my happy family, 
+    and flourished me with the essence of a mother."</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="image\cust2.jpg" alt="Lights" style="width:100%">
+  <div class="w3-container">
+  <h3>PALLAVI KOLHE</h3>
+  <h4>Single Parent adopted a Girl Child</h4>
+  <p>"Due to my unfortunate,I got divorced from my husband. I was fully exhausted and lost all my hopes to survive.
+  Then suddenly I read the news of Lokakirti and with curiosity I visited their website. I realized the importance of girl child and I decided to adopt a girl and 
+  got a reason to survive my life happily and it fulfilled my world."</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="image\cust3.jpg" alt="Mountains" style="width:100%">
+  <div class="w3-container">
+  <h3>MATTHEW JONES </h3>
+  <h4>Girl completes a family </h4>
+  <p>"Actually, I lost my wife in an car accident.After her,I was depressed. 
+    My son was also missing her,but I was helpless.Then my friend suggested 
+    me about adopting a girl from Lokakirti.I thought on his suggestion whole 
+    night and I reached upto a decission to adopt a girl as girls are actually 
+    a second mother for their family.My girl completed my family and fulfilled 
+    the empty space of my wife  in my life."</p>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<!-- Registeration Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="chronicle">
+    <h2>Register on Category</h2>
+    <p>Choose a category that fits your adoption plan.</p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Domestic Infant Adoption</p>
+        </li>
+        <p> Domestic infant adoptions occur when a birth parent legally consents to an adoptive placement and an adoptive family is prepared to care for the child as their legal parents.</p>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i><a href="register1.html">Register Now!</a></button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">Foster Care Adoption</p>
+        </li>
+        <p>Foster care adoption is the adoption of a child in foster care whose biological parents’ rights have been terminated by a court. The child may be adopted by either his or her foster parents or another adoptive family</p>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i><a href="register2.html">Register Now!</a></button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">International Adoption</p>
+        </li>
+        <p>Inter-country adoption, also known as transnational adoption is a mode of adoption in which an individual or a couple, outside India becomes the legal parent(s) of a child.</p>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i><a href="register3.html">Register Now!</a></button>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p>Opp Saraswat Colony, Potohar Nagar, Santacruz(E), India</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Santacruz(E), Mumbai, India</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +91 9469864356</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i> lokakirti@gmail.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>I Like it!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="image\map.JPG" class="w3-image w3-greyscale-min w3-center" style="width:25%;">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/profile.php?id=100077735295292" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://twitter.com/lokakirti" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.instagram.com/lokakirti/" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="https://www.linkedin.com/in/lokakirti-foundation-8299b2230" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Powered by <a href="https://www.firstcry.com/" target="_blank">FirstCry</a></p>
+  <p>Sponsered by <a href="https://www.mothercare.in/" target="_blank">MotherCare</a></p>
+  <p>Sponsored by <a href="https://babyhug.in/" target="_blank">BabyHug</a></p>
+  
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

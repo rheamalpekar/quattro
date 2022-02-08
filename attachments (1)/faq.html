@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <title>FAQ</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: rgb(228, 142, 142);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: rgb(169, 151, 252);
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<h2>FAQ</h2>
+
+<button class="accordion"><b>What is an ADOPTION?</b></button>
+<div class="panel">
+  <p>Adoption means the process through which the adopted child is permanently separated from his
+    biological parents and becomes the lawful child of the adoptive parents with all the rights, privileges
+    and responsibilities that are attached to a biological child.</p>
+</div>
+
+<button class="accordion"><b>Who can ADOPT?</b></button>
+<div class="panel">
+  <p>As per the Adoption Regulations 2017 and in accordance with the Juvenile Justice (Care and Protection of Children) Act, 2015, issued by the Ministry of Women and Child Development:</p>
+  <p>1. The prospective adoptive parents (PAP) “should be physically, mentally and emotionally stable, financially capable and shall not have any life-threatening medical condition.”</p>
+  <p>2. A person can adopt irrespective of their marital status and whether or not he or she has a biological son or daughter.</p>
+  <p>3. A single female can adopt a child of any gender but a single male shall not be eligible to adopt a girl child. In case of a married couple, both spouses should give their consent for adoption.</p>
+  <p>4. “No child shall be given in adoption to a couple unless they have at least two years of stable marital relationship,” mention the regulations.</p>
+  <p>5. Couples with three or more children shall not be considered for adoption “except in case of special need children”, “hard to place children” and in case of “relative adoption and adoption by step-parent”.</p>
+  <p>Apart from resident and non-resident Indians, even overseas citizens of India and foreign parents can adopt children from the country. </p>
+</div>
+
+<button class="accordion"><b>How old should the prospective adoptive parent be?</b></button>
+<div class="panel">
+  <p>To adopt a child less than four years old, the maximum composite age is 90 in case 
+    of a couple and 45 in case of a single parent. For adopting a child above four years 
+    old, the maximum composite age for a couple is 100 while the maximum age for a single 
+    parent in 50 years. For adopting a child between eight and 18 years, the maximum age is 
+    110 and 55 years for a couple and a single PAP respectively.</p>
+</div>
+
+<button class="accordion"><b>What happens after adoption?</b></button>
+<div class="panel">
+  <p>The agency that prepares the Home Study Report also does a post-adoption 
+    “follow-up on six monthly basis for two years from the date of pre-adoption 
+    foster placement with the prospective adoptive parents and the report is 
+    uploaded on the Child Adoption Resource Information and Guidance System 
+    (CARINGS) along with photographs of the child”. The District Child Protection 
+    Unit also prepares the post-adoption follow-up report in case of relocation of 
+    adoptive parents to a different place of dwelling.</p>
+</div>
+
+<button class="accordion"><b>Do single parents who want to adopt need to have an extended family to 
+    look after the child?</b></button>
+<div class="panel">
+  <p>For a single parent, there should be an undertaking from a relative in case of any 
+    eventuality, which is mentioned on the registration form itself.</p>
+</div>
+
+<button class="accordion"><b>Why are girls adopted more?</b></button>
+<div class="panel">
+  <p>Parents usually show preference for the girl child more as compared to boys. About 2,398 
+    girl children among a total of 4,027 kids were adopted in 2018-19. Besides, there are already 
+    a large number of parents waiting in comparison to the number of children who are legally free 
+    for adoption, and the child of whichever sex is available will get adopted.</p>
+</div>
+
+<button class="accordion"><b>If one parent lives in India and the other abroad, can they adopt?</b></button>
+<div class="panel">
+  <p>The Home Study is done to look into eligibility and suitability of the prospective 
+    adoptive parents. So, if the partners are staying at different places, there will 
+    definitely be a difficulty in the assessment. It is generally done at the habitual 
+    place of residence. There has to be one base of dwelling where the child is going to 
+    go and stay. If one partner is staying abroad and the other in India, there is an issue 
+    of where the child will finally go and stay after adoption. If it happens to be abroad, 
+    then it requires an inter-country adoption process. Ultimately, it is about finding families 
+    for the child and not the other way round. In accordance with the Juvenile Justice Act, the 
+    child should be placed in a family that will really be able to look after him or her.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
